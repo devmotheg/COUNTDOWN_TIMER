@@ -1,0 +1,58 @@
+<!--!
+  @author Mohamed Muntasir
+  @link https://github.com/devmotheg
+  -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <title>Countdown Timer</title>
+</head>
+
+<body>
+  <!-- Main -->
+  <main class="timer">
+    <!-- Header -->
+    <div class="timer__header">
+      <h1>Countdown Timer</h1>
+    </div>
+    <!-- Body -->
+    <div class="timer__body">
+      <div class="timer__days" data-digits="3" data-base="999" data-type="days">
+        <div class="timer__circle" data-time="999"></div>
+        <p>DAY(S)</p>
+      </div>
+      <div class="timer__hours" data-digits="2" data-base="23" data-type="hours">
+        <div class="timer__circle" data-time="23"></div>
+        <p>HOUR(S)</p>
+      </div>
+      <div class="timer__minutes" data-digits="2" data-base="59" data-type="minutes">
+        <div class="timer__circle" data-time="59"></div>
+        <p>MINUTE(S)</p>
+      </div>
+      <div class="timer__seconds" data-digits="2" data-base="59" data-type="seconds">
+        <div class="timer__circle" data-time="59"></div>
+        <p>SECOND(S)</p>
+      </div>
+    </div>
+    <!-- Footer -->
+    <div class="timer__footer">
+      <div>
+        <label for="timer__input">
+          Upcoming date:<br />(yyyy-mm-dd hh:mm)
+          <input class="timer__input" type="text" placeholder="Enter upcoming date" maxlength="19" />
+        </label>
+        <button>START COUNTER!</button>
+      </div>
+      <a href="https://github.com/devmotheg">Designed by Mohamed Muntasir</a>
+    </div>
+  </main>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
