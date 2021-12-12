@@ -1,7 +1,7 @@
 /*!
-  @author Mohamed Muntasir
-  @link https://github.com/devmotheg
-  */
+ * @author Mohamed Muntasir
+ * @link https://github.com/devmotheg
+ */
 
 const TIMER_INPUT_EL = document.querySelector(".timer__input"),
   BUTTON_EL = document.querySelector("button"),
