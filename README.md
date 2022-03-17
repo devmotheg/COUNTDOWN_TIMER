@@ -1,7 +1,9 @@
 # Countdown Timer
 
->"Don't count the days. Make the days count."\
-— Muhammad Ali
+Challenge from Tenzin's list of projects (⌐■_■)
+
+> "Don't count the days. Make the days count."\
+> — Muhammad Ali
 
 NGL, this project was very fun to do and taught me a lot about time and date.
 
